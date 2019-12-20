@@ -29,14 +29,13 @@ When a pin is tapped, the app will navigate to the Photo Album view associated w
 If the user taps a pin that does not yet have a photo album, the app will download Flickr images associated with the latitude and longitude of the pin.<br/><br/>
 If no images are found a “No Images” label will be displayed.
 If there are images, then they will be displayed in a collection view.<br/>
-While the images are downloading, the photo album is in a temporary “downloading” state in which the New Collection button is disabled. The app should determine how many images are available for the pin location, and display a placeholder image for each.<br/><br/>
-Once the images have all been downloaded, the app should enable the New
+While the images are downloading, the photo album is in a temporary “downloading” state in which the New Collection button is disabled.<br/><br/>
+Once the images have all been downloaded, the app enable the New
 Collection button at the bottom of the
-page. Tapping this button should empty the photo album and fetch a new set of images. Note that in locations that have a fairly static set of Flickr images, “new” images might overlap with previous collections of images.
-Users should be able to remove photos from an album by tapping them. Pictures will flow up to fill the space vacated by the removed photo.<br/><br/>
-All changes to the photo album should be automatically made persistent.
-Tapping the back button should return the user to the Map view.<br/>
-If the user selects a pin that already has a photo album then the Photo Album view should display the album and the New Collection button should be enabled.
+page. Tapping this button empty the photo album and fetch a new set of images.
+Users able to remove photos from an album by tapping them. Pictures will flow up to fill the space vacated by the removed photo.<br/><br/>
+Tapping the back button return the user to the Map view.<br/>
+
  
 ### Features
   - Downloading data from network resources [Flickr API](https://www.flickr.com/services/api/).
