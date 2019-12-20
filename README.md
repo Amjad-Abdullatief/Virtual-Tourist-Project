@@ -33,8 +33,7 @@ While the images are downloading, the photo album is in a temporary “downloadi
 Once the images have all been downloaded, the app enable the New
 Collection button at the bottom of the
 page. Tapping this button empty the photo album and fetch a new set of images.
-Users able to remove photos from an album by tapping them. Pictures will flow up to fill the space vacated by the removed photo.<br/><br/>
-Tapping the back button return the user to the Map view.<br/>
+Users able to remove photos from an album by tapping them. Pictures will flow up to fill the space vacated by the removed photo.Tapping the back button return the user to the Map view.<br/>
 
  
 ### Features
