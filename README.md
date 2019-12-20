@@ -19,7 +19,7 @@ It was built using :
 The center of the map and the zoom level should be persistent. If the app is turned off, the map should return to the same state when it is turned on again.<br/><br/>
 Tapping and holding the map drops a new pin. Users can place any number of pins on the map.
 When a pin is tapped, the app will navigate to the Photo Album view associated with the pin.<br/>
-##### Edit pins screen to delete existing pins of tourist locations:
+ <b> Edit pins screen to delete existing pins of tourist locations: <b>
 <img width="464" alt="Screen Shot 1441-04-23 at 8 09 28 PM" src="https://user-images.githubusercontent.com/47195049/71272820-c2cae500-2364-11ea-8934-313d7682257e.png">
 
 #### Photo Album View 
